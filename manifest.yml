@@ -1,0 +1,6 @@
+---
+applications:
+  - name: rv-websocket
+    buildpack: java_buildpack
+    path: target/stockReader-0.1.0.jar
+    memory: 256M
