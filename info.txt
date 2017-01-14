@@ -1,3 +1,4 @@
 https://github.com/spring-guides/gs-serving-web-content
 https://spring.io/guides/gs/messaging-stomp-websocket/
  cf login -a api.run.pivotal.io
+ https://github.com/revviktor/stockReader
