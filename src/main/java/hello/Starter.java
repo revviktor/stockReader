@@ -4,14 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.nio.file.FileSystems;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-
-import hello.MessageSender;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -48,6 +42,10 @@ public class Starter {
 		}
 		case ("europe"): {
 			file = "/symbols/europe.txt";
+			break;
+		}
+		case ("champs"): {
+			file = "/symbols/champs.txt";
 			break;
 		}
     default: {

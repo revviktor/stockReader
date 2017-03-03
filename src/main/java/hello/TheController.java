@@ -15,7 +15,7 @@ import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 
 @Controller
-public class GreetingController {
+public class TheController {
 
 	@Autowired
 	MessageSender messageSender;

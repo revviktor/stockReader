@@ -1,24 +1,19 @@
 package com.rv.readData.yahooApi;
 
-import hello.MessageSender;
-
 import java.io.IOException;
 import java.math.BigDecimal;
-import java.util.Map;
-import java.util.Set;
 
 import org.apache.log4j.Logger;
-
-import yahoofinance.Stock;
 
 import com.rv.readData.yahooApi.GetData.GetData;
 import com.rv.readData.yahooApi.GetData.PaperGetData;
 
+import hello.MessageSender;
+import yahoofinance.Stock;
+
 public class LowComparedTo200Executor implements StockDataExecutor {
 	final static Logger logger = Logger.getLogger(LowComparedTo200Executor.class);
 
-//	Map<String,Double> changeMap;
-//	TreeMap<String, Double> sorted_map;
 
 	private MessageSender messageSender;
 	

@@ -44,6 +44,10 @@ public class StockCheckerYahooApi implements StockChecker {
 			executor = new LowComparedTo200Executor(messageSender);
 			break;
 		}
+		case "highyield": {
+			executor = new HighestYieldDifferenceExecutor(messageSender);
+			break;
+		}
 		}
 
 		executor.start();
